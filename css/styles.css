@@ -1,0 +1,11 @@
+body {
+    background-color: #f5f5dc;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Hidden in plain sight */
+body::after {
+    content: "The next clue is at /watson.log";
+    color: transparent;
+    font-size: 0;
+}
